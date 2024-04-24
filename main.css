@@ -1,0 +1,38 @@
+.main {
+  height: 100vh;
+  position: relative;
+}
+.main_logo {
+  object-fit: cover;
+}
+.main_block {
+  /* background: red; */
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  max-width: 1280px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.block_header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header_logo {
+  width: 296px;
+  display: block;
+}
+.header_block{
+display: flex;
+}
+.block_link{
+    width: 30px;
+    height: 30px;
+    display: block;
+    margin-left: 40px;
+}
