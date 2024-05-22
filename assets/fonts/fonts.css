@@ -1,0 +1,18 @@
+@font-face {
+	font-family: 'Archangelsk';
+	src: url('./archangelsk/archangelsk.eot'); /* IE 9 Compatibility Mode */
+	src: url('./archangelsk/archangelsk.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('./archangelsk/archangelsk.woff2') format('woff2'), /* Super Modern Browsers */
+		url('./archangelsk/archangelsk.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('./archangelsk/archangelsk.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('./archangelsk/archangelsk.svg#archangelsk') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+@font-face {
+	font-family: 'Roboto Bold';
+	src: url('./roboto/roboto_bold.eot'); /* IE 9 Compatibility Mode */
+	src: url('./roboto/roboto_bold.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('./roboto/roboto_bold.woff2') format('woff2'), /* Super Modern Browsers */
+		url('./roboto/roboto_bold.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('./roboto/roboto_bold.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('./roboto/roboto_bold.svg#roboto_bold') format('svg'); /* Chrome < 4, Legacy iOS */
+}
