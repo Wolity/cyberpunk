@@ -1,0 +1,21 @@
+.about {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+.about_title {
+  font-family: "Archangelsk";
+  font-size: 62px;
+  margin-top: 70px;
+}
+.about_info {
+    font-family: "Roboto";
+    font-size: 18px;
+    margin-top: 25px;
+    max-width:952px;
+    color:rgb(119, 119, 119);
+    line-height:34px;
+}
+.info_link{
+    color:rgb(82, 190, 220);
+    text-decoration: none;
+}
