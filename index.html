@@ -11,7 +11,7 @@
   </head>
   <body>
     <section class="main">
-      <img src="./assets/images/main.jpeg" class="main_logo" />
+      <img src="./assets/images/main1.jpeg" id="slider" class="main_logo" />
 
       <main class="main_block">
         <header class="block_header">
@@ -61,5 +61,18 @@
         <img class = 'block_img3' src ='/assets/images/about/Rectangle 61.png'>
       </div>
     </section>
+    <script>
+      let slider = document.getElementById('slider')
+      let count = 1
+      function slideImg(){
+        slider.src = `./assets/images/main${count}.jpeg`
+        if (count>=3){
+          count = 1
+        } else{
+          count++
+        }
+      }
+      setInterval( slideImg, 1000);
+    </script>
   </body>
 </html>
