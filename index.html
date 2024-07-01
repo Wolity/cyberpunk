@@ -7,12 +7,12 @@
     <link rel="stylesheet" href="reset.css" />
     <link rel="stylesheet" href="main.css" />
     <link rel="stylesheet" href="about.css" />
+    <link rel="stylesheet" href="advertising.css">
     <title>Document</title>
   </head>
   <body>
     <section class="main">
       <img src="./assets/images/main1.jpeg" id="slider" class="main_logo" />
-
       <main class="main_block">
         <header class="block_header">
           <a href="#" class="header_logo">
@@ -47,32 +47,48 @@
     </section>
     <section class="about">
       <h2 class="about_title">Найт-сити изменит тебя навсегда!</h2>
-      <p class = 'about_info'>
-        <a class = 'info_link' href="https://www.cyberpunk.net/us/ru/">Cyberpunk 2077</a> — приключенческая ролевая игра, действие которой
-        происходит в мегаполисе Найт-Сити, где власть, роскошь и модификации
-        тела ценятся выше всего. Ты играешь за V, наёмника в поисках устройства,
-        позволяющего обрести бессмертие. Ты сможешь менять киберимпланты, навыки
-        и стиль игры своего персонажа, исследуя открытый мир, где твои поступки
-        влияют на ход сюжета и всё, что тебя окружает.
+      <p class="about_info">
+        <a class="info_link" href="https://www.cyberpunk.net/us/ru/"
+          >Cyberpunk 2077</a
+        >
+        — приключенческая ролевая игра, действие которой происходит в мегаполисе
+        Найт-Сити, где власть, роскошь и модификации тела ценятся выше всего. Ты
+        играешь за V, наёмника в поисках устройства, позволяющего обрести
+        бессмертие. Ты сможешь менять киберимпланты, навыки и стиль игры своего
+        персонажа, исследуя открытый мир, где твои поступки влияют на ход сюжета
+        и всё, что тебя окружает.
       </p>
-      <div class = 'about_block'>
-        <img class = 'block_img1' src ='/assets/images/about/Rectangle 62.png'>
-        <img class = 'block_img2' src ='/assets/images/about/Rectangle 63.png'>
-        <img class = 'block_img3' src ='/assets/images/about/Rectangle 61.png'>
+      <div class="about_block">
+        <img class="block_img1" src="/assets/images/about/Rectangle 62.png" />
+        <img class="block_img2" src="/assets/images/about/Rectangle 63.png" />
+        <img class="block_img3" src="/assets/images/about/Rectangle 61.png" />
+      </div>
+    </section>
+    <section class="advertising">
+      <img class="advertising_left" src="./assets/images/advertising.png" />
+      <div class="advertising_right">
+        <h2 class="right_title">Полное погружение вместе с HP</h2>
+        <p class="right_info">
+          Погрузись в современные экшен-игры с реалистичным изображением с
+          помощью монитора с диагональю 23,8 дюйма, созданном для отображения
+          максимально насыщенных цветов. Успевай реагировать на любые события с
+          временем отклика 1 мс и частотой в 144 Гц!
+        </p>
+        <button class="right_btn">Подробнее</button>
       </div>
     </section>
     <script>
-      let slider = document.getElementById('slider')
-      let count = 1
-      function slideImg(){
-        slider.src = `./assets/images/main${count}.jpeg`
-        if (count>=3){
-          count = 1
-        } else{
-          count++
+      let slider = document.getElementById("slider");
+      let count = 1;
+      function slideImg() {
+        slider.src = `./assets/images/main${count}.jpeg`;
+        if (count >= 3) {
+          count = 1;
+        } else {
+          count++;
         }
       }
-      setInterval( slideImg, 1000);
+      setInterval(slideImg, 1000);
     </script>
   </body>
 </html>
