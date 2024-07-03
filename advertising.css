@@ -1,0 +1,20 @@
+.advertising {
+  background-color: rgb(248, 242, 0);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 70px 0px;
+  grid-gap: 32px;
+}
+.advertising_left {
+  width: 32.5%;
+}
+.advertising_right {
+  width: 624px;
+}
+.right_title {
+}
+.right_info {
+}
+.right_btn {
+}
