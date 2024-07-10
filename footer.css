@@ -1,0 +1,9 @@
+.footer{
+    display: flex;
+    justify-content: center;
+}
+.footer_logo{
+    width: 296px;
+    padding:13px 0px ;
+    
+}
